@@ -5,7 +5,7 @@
 //  Created by heogj123 on 2022/06/30.
 //
 
-#include "no_1000.h"
+#include "no_1000.hpp"
 #include <stdio.h>
 
 void no_1000::func() {

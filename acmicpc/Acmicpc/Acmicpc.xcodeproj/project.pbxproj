@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F53A1995286DE4870031D393 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53A1994286DE4870031D393 /* main.cpp */; };
 		F53A199C286DE5EE0031D393 /* no_1000.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53A199B286DE5EE0031D393 /* no_1000.cpp */; };
+		F53A19A3286DEAF50031D393 /* no_1002.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53A19A1286DEAF50031D393 /* no_1002.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +28,9 @@
 		F53A1991286DE4870031D393 /* Acmicpc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Acmicpc; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53A1994286DE4870031D393 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F53A199B286DE5EE0031D393 /* no_1000.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = no_1000.cpp; sourceTree = "<group>"; };
-		F53A199E286DE7260031D393 /* no_1000.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = no_1000.h; sourceTree = "<group>"; };
+		F53A199E286DE7260031D393 /* no_1000.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = no_1000.hpp; sourceTree = "<group>"; };
+		F53A19A1286DEAF50031D393 /* no_1002.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = no_1002.cpp; sourceTree = "<group>"; };
+		F53A19A2286DEAF50031D393 /* no_1002.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = no_1002.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		F53A1993286DE4870031D393 /* Acmicpc */ = {
 			isa = PBXGroup;
 			children = (
+				F53A19A0286DEAE60031D393 /* 1002 */,
 				F53A199D286DE70E0031D393 /* 1000 */,
 				F53A1994286DE4870031D393 /* main.cpp */,
 			);
@@ -69,10 +73,19 @@
 		F53A199D286DE70E0031D393 /* 1000 */ = {
 			isa = PBXGroup;
 			children = (
-				F53A199E286DE7260031D393 /* no_1000.h */,
 				F53A199B286DE5EE0031D393 /* no_1000.cpp */,
+				F53A199E286DE7260031D393 /* no_1000.hpp */,
 			);
 			path = 1000;
+			sourceTree = "<group>";
+		};
+		F53A19A0286DEAE60031D393 /* 1002 */ = {
+			isa = PBXGroup;
+			children = (
+				F53A19A1286DEAF50031D393 /* no_1002.cpp */,
+				F53A19A2286DEAF50031D393 /* no_1002.hpp */,
+			);
+			path = 1002;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +147,7 @@
 			files = (
 				F53A199C286DE5EE0031D393 /* no_1000.cpp in Sources */,
 				F53A1995286DE4870031D393 /* main.cpp in Sources */,
+				F53A19A3286DEAF50031D393 /* no_1002.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
