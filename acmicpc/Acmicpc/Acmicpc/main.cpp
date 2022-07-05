@@ -8,12 +8,12 @@
 #include <iostream>
 #include <stdio.h>
 
-#include "no_1002.hpp"
+#include "no_1004.hpp"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
   // insert code here...
-  no_1002 func;
+  no_1004 func;
   func.func();
 }

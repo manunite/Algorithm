@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5292AE9287478110093F7D6 /* no_1004.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5292AE7287478110093F7D6 /* no_1004.cpp */; };
 		F53A1995286DE4870031D393 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53A1994286DE4870031D393 /* main.cpp */; };
 		F53A199C286DE5EE0031D393 /* no_1000.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53A199B286DE5EE0031D393 /* no_1000.cpp */; };
 		F53A19A3286DEAF50031D393 /* no_1002.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53A19A1286DEAF50031D393 /* no_1002.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F5292AE7287478110093F7D6 /* no_1004.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = no_1004.cpp; sourceTree = "<group>"; };
+		F5292AE8287478110093F7D6 /* no_1004.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = no_1004.hpp; sourceTree = "<group>"; };
 		F53A1991286DE4870031D393 /* Acmicpc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Acmicpc; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53A1994286DE4870031D393 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F53A199B286DE5EE0031D393 /* no_1000.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = no_1000.cpp; sourceTree = "<group>"; };
@@ -44,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F5292AE6287477FB0093F7D6 /* 1004 */ = {
+			isa = PBXGroup;
+			children = (
+				F5292AE7287478110093F7D6 /* no_1004.cpp */,
+				F5292AE8287478110093F7D6 /* no_1004.hpp */,
+			);
+			path = 1004;
+			sourceTree = "<group>";
+		};
 		F53A1988286DE4870031D393 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +75,7 @@
 		F53A1993286DE4870031D393 /* Acmicpc */ = {
 			isa = PBXGroup;
 			children = (
+				F5292AE6287477FB0093F7D6 /* 1004 */,
 				F53A19A0286DEAE60031D393 /* 1002 */,
 				F53A199D286DE70E0031D393 /* 1000 */,
 				F53A1994286DE4870031D393 /* main.cpp */,
@@ -145,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5292AE9287478110093F7D6 /* no_1004.cpp in Sources */,
 				F53A199C286DE5EE0031D393 /* no_1000.cpp in Sources */,
 				F53A1995286DE4870031D393 /* main.cpp in Sources */,
 				F53A19A3286DEAF50031D393 /* no_1002.cpp in Sources */,
